@@ -19,7 +19,7 @@
        -  The route includes a +page.js (client-side sveltekit page load) & +page.svelte file.
     -  Component files are located in the src/lib folder.
     -  When npm run dev-server is started, concurrently starts both the app and api.  The API runs on localhost port 3001, while the SvelteKit defaults to port 5173.
-    -  The database is Mongo DB.  I will provide the CONNECTION_STRING via separate correspondence.
+    -  The database is Mongo DB.
 
     Environment Variables:
 
