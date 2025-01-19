@@ -1,0 +1,43 @@
+GET http://localhost:3001/inventory/test
+
+###
+
+POST http://localhost:3001/inventory/add HTTP/1.1
+content-type: application/json
+
+    {
+        "name": "Hair Spray for men",
+        "description": "This is a single can of hair spray.",
+        "quantity": "2",
+        "userId": "678b141dfdd01847ce5fc1a3"
+    }
+
+### Update inventory, but check if inventoryname is changed and dup.
+
+PUT http://localhost:3001/inventory/edit HTTP/1.1
+content-type: application/json
+
+{
+    "_id": "67886552bbde662eead67854",
+    "name": "Box of Chocolates",
+        "description": "This is a box of chocolates. Life is like a box of chocolates.",
+        "quantity": "3",
+        "userId": "678847c8ed75afed604392fc"
+}
+
+###
+
+DELETE http://localhost:3001/inventory/delete HTTP/1.1
+content-type: application/json
+
+{
+    "itemId": "678aaf292e6d5b4afeb78442"
+}
+
+### 
+
+GET http://localhost:3001/inventory/list
+
+###
+
+GET http://localhost:3001/inventory/list/678b141dfdd01847ce5fc1a3

@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* light Blue theme: blue = 0, 115, 255, white = white, grey = fffff*/
+/* Dark Blue theme: grey = black, blue 54, 24, 250, white = white, black = white */
+
+:root {
+	--grey: #ffffff;
+	--blue: rgb(0, 115, 255);
+	--white: white;
+	--red: rgb(255, 0, 0);
+	--green: lightgreen;
+	--black: black;
+}
+
+.base-theme {
+	--grey: #ffffff;
+	--blue: rgb(0, 115, 255);
+	--white: white;
+	--red: rgb(255, 0, 0);
+	--green: lightgreen;
+	--black: black;
+}
+
+.mid-dark-blue-theme {
+	--grey: rgb(68, 68, 68);
+	--blue: rgba(74, 121, 252, 0.544);
+	--white: white;
+	--red: rgb(255, 0, 0);
+	--green: lightgreen;
+	--black: white;
+}
+
+.brown-yellow-theme {
+	--grey: rgb(246, 246, 246);
+	--blue: rgb(98, 64, 0);
+	--white: rgb(205, 205, 109);
+	--red: rgb(255, 0, 0);
+	--green: rgb(205, 205, 109);
+	--black: rgb(72, 47, 0);
+}
+
+.yellow-green-theme {
+	--grey: rgb(246, 246, 246);
+	--blue: rgb(20, 74, 0);
+	--white: rgb(218, 218, 21);
+	--red: rgb(255, 0, 0);
+	--green: rgb(218, 218, 21);
+	--black: rgb(20, 74, 0);
+}
+
+.dark-yellow-theme {
+	--grey: black;
+	--blue: rgb(203, 197, 2);
+	--white: black;
+	--red: rgb(255, 0, 0);
+	--green: black;
+	--black: white;
+}
+
+main {
+	background: var(--grey);
+	min-height: 100vh;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.error {
+	color: var(--red);
+	font-size: 0.9em;
+}
