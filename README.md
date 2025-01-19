@@ -4,7 +4,7 @@
 
 ## Creating a project
 
-    To create the application clone the repository.
+    To create the application, clone the repository.
 
     Run "npm i" to install required dependencies.
 
