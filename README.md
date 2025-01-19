@@ -8,7 +8,7 @@
 
     Run "npm i" to install required dependencies.
 
-    Update environment variables per list below with username and password provided separately.
+    Update environment variables per list below.  Password will auto expire after two weeks.
 
     Run "npm run dev-server"
 
@@ -23,6 +23,6 @@
 
     Environment Variables:
 
-        CONNECTION_STRING=mongodb+srv://[Username and password]@cluster0.tvozn.mongodb.net/z-prefix-crud?retryWrites=true
+        CONNECTION_STRING=mongodb+srv://z-prefix-crud-user:Nonfys-6vaxda-muqsox@cluster0.tvozn.mongodb.net/z-prefix-crud?retryWrites=true
         PUBLIC_API_URL=http://localhost:3001
         FRONTEND_URL=http://localhost:5173
