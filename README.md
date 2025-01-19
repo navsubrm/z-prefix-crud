@@ -25,3 +25,4 @@
 
         CONNECTION_STRING=mongodb+srv://[Username and password]@cluster0.tvozn.mongodb.net/z-prefix-crud?retryWrites=true
         PUBLIC_API_URL=http://localhost:3001
+        FRONTEND_URL=http://localhost:5173
